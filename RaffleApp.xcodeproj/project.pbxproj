@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEBBA2C6220A753F0065E535 /* PurchasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBBA2C5220A753F0065E535 /* PurchasesVC.m */; };
+		AEBBA2C9220A759A0065E535 /* AccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBBA2C8220A759A0065E535 /* AccountVC.m */; };
+		AEBBA2CC220A75C80065E535 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBBA2CB220A75C80065E535 /* MainVC.m */; };
+		AEBBA2CF220A76310065E535 /* FeedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBBA2CE220A76310065E535 /* FeedVC.m */; };
+		AEBBA2D1220A7C600065E535 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBBA2D0220A7C600065E535 /* Storyboard.storyboard */; };
+		AEBBA2D6220A82340065E535 /* Signature.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEBBA2D3220A82340065E535 /* Signature.ttf */; };
+		AEBBA2D7220A82340065E535 /* COMPANY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEBBA2D4220A82340065E535 /* COMPANY.ttf */; };
+		AEBBA2D8220A82340065E535 /* CLASSIC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEBBA2D5220A82340065E535 /* CLASSIC.ttf */; };
+		AEFFDCC5220A7257002BB0B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFDCC4220A7257002BB0B4 /* AppDelegate.m */; };
+		AEFFDCC8220A7257002BB0B4 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFDCC7220A7257002BB0B4 /* LoginController.m */; };
+		AEFFDCCE220A7257002BB0B4 /* RaffleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEFFDCCC220A7257002BB0B4 /* RaffleApp.xcdatamodeld */; };
+		AEFFDCD0220A725E002BB0B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFFDCCF220A725E002BB0B4 /* Assets.xcassets */; };
+		AEFFDCD3220A725E002BB0B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFFDCD1220A725E002BB0B4 /* LaunchScreen.storyboard */; };
+		AEFFDCD6220A725E002BB0B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFDCD5220A725E002BB0B4 /* main.m */; };
+		AEFFDCE0220A725E002BB0B4 /* RaffleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFDCDF220A725E002BB0B4 /* RaffleAppTests.m */; };
+		AEFFDCEB220A725E002BB0B4 /* RaffleAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFDCEA220A725E002BB0B4 /* RaffleAppUITests.m */; };
+		AEFFDCFA220A72C0002BB0B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFFDCF8220A72C0002BB0B4 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEFFDCDC220A725E002BB0B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFFDCB8220A7257002BB0B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEFFDCBF220A7257002BB0B4;
+			remoteInfo = RaffleApp;
+		};
+		AEFFDCE7220A725E002BB0B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFFDCB8220A7257002BB0B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEFFDCBF220A7257002BB0B4;
+			remoteInfo = RaffleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEBBA2C4220A753F0065E535 /* PurchasesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurchasesVC.h; sourceTree = "<group>"; };
+		AEBBA2C5220A753F0065E535 /* PurchasesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurchasesVC.m; sourceTree = "<group>"; };
+		AEBBA2C7220A759A0065E535 /* AccountVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountVC.h; sourceTree = "<group>"; };
+		AEBBA2C8220A759A0065E535 /* AccountVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountVC.m; sourceTree = "<group>"; };
+		AEBBA2CA220A75C80065E535 /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		AEBBA2CB220A75C80065E535 /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		AEBBA2CD220A76310065E535 /* FeedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedVC.h; sourceTree = "<group>"; };
+		AEBBA2CE220A76310065E535 /* FeedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedVC.m; sourceTree = "<group>"; };
+		AEBBA2D0220A7C600065E535 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		AEBBA2D3220A82340065E535 /* Signature.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Signature.ttf; sourceTree = "<group>"; };
+		AEBBA2D4220A82340065E535 /* COMPANY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = COMPANY.ttf; sourceTree = "<group>"; };
+		AEBBA2D5220A82340065E535 /* CLASSIC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CLASSIC.ttf; sourceTree = "<group>"; };
+		AEFFDCC0220A7257002BB0B4 /* RaffleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaffleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFFDCC3220A7257002BB0B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEFFDCC4220A7257002BB0B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEFFDCC6220A7257002BB0B4 /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		AEFFDCC7220A7257002BB0B4 /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		AEFFDCCD220A7257002BB0B4 /* RaffleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RaffleApp.xcdatamodel; sourceTree = "<group>"; };
+		AEFFDCCF220A725E002BB0B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEFFDCD2220A725E002BB0B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEFFDCD4220A725E002BB0B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFFDCD5220A725E002BB0B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEFFDCDB220A725E002BB0B4 /* RaffleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaffleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFFDCDF220A725E002BB0B4 /* RaffleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaffleAppTests.m; sourceTree = "<group>"; };
+		AEFFDCE1220A725E002BB0B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFFDCE6220A725E002BB0B4 /* RaffleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaffleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFFDCEA220A725E002BB0B4 /* RaffleAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaffleAppUITests.m; sourceTree = "<group>"; };
+		AEFFDCEC220A725E002BB0B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFFDCF9220A72C0002BB0B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../Raffle App/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEFFDCBD220A7257002BB0B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFFDCD8220A725E002BB0B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFFDCE3220A725E002BB0B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEBBA2D2220A82340065E535 /* signature_2 */ = {
+			isa = PBXGroup;
+			children = (
+				AEBBA2D3220A82340065E535 /* Signature.ttf */,
+				AEBBA2D4220A82340065E535 /* COMPANY.ttf */,
+				AEBBA2D5220A82340065E535 /* CLASSIC.ttf */,
+			);
+			name = signature_2;
+			path = ../../../Downloads/signature_2;
+			sourceTree = "<group>";
+		};
+		AEFFDCB7220A7257002BB0B4 = {
+			isa = PBXGroup;
+			children = (
+				AEFFDCC2220A7257002BB0B4 /* RaffleApp */,
+				AEFFDCDE220A725E002BB0B4 /* RaffleAppTests */,
+				AEFFDCE9220A725E002BB0B4 /* RaffleAppUITests */,
+				AEFFDCC1220A7257002BB0B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEFFDCC1220A7257002BB0B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFDCC0220A7257002BB0B4 /* RaffleApp.app */,
+				AEFFDCDB220A725E002BB0B4 /* RaffleAppTests.xctest */,
+				AEFFDCE6220A725E002BB0B4 /* RaffleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEFFDCC2220A7257002BB0B4 /* RaffleApp */ = {
+			isa = PBXGroup;
+			children = (
+				AEBBA2D2220A82340065E535 /* signature_2 */,
+				AEFFDCC3220A7257002BB0B4 /* AppDelegate.h */,
+				AEFFDCC4220A7257002BB0B4 /* AppDelegate.m */,
+				AEBBA2D0220A7C600065E535 /* Storyboard.storyboard */,
+				AEFFDCC6220A7257002BB0B4 /* LoginController.h */,
+				AEFFDCC7220A7257002BB0B4 /* LoginController.m */,
+				AEBBA2CD220A76310065E535 /* FeedVC.h */,
+				AEBBA2CE220A76310065E535 /* FeedVC.m */,
+				AEBBA2CA220A75C80065E535 /* MainVC.h */,
+				AEBBA2CB220A75C80065E535 /* MainVC.m */,
+				AEBBA2C7220A759A0065E535 /* AccountVC.h */,
+				AEBBA2C8220A759A0065E535 /* AccountVC.m */,
+				AEBBA2C4220A753F0065E535 /* PurchasesVC.h */,
+				AEBBA2C5220A753F0065E535 /* PurchasesVC.m */,
+				AEFFDCF8220A72C0002BB0B4 /* Main.storyboard */,
+				AEFFDCCF220A725E002BB0B4 /* Assets.xcassets */,
+				AEFFDCD1220A725E002BB0B4 /* LaunchScreen.storyboard */,
+				AEFFDCD4220A725E002BB0B4 /* Info.plist */,
+				AEFFDCD5220A725E002BB0B4 /* main.m */,
+				AEFFDCCC220A7257002BB0B4 /* RaffleApp.xcdatamodeld */,
+			);
+			path = RaffleApp;
+			sourceTree = "<group>";
+		};
+		AEFFDCDE220A725E002BB0B4 /* RaffleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFDCDF220A725E002BB0B4 /* RaffleAppTests.m */,
+				AEFFDCE1220A725E002BB0B4 /* Info.plist */,
+			);
+			path = RaffleAppTests;
+			sourceTree = "<group>";
+		};
+		AEFFDCE9220A725E002BB0B4 /* RaffleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFDCEA220A725E002BB0B4 /* RaffleAppUITests.m */,
+				AEFFDCEC220A725E002BB0B4 /* Info.plist */,
+			);
+			path = RaffleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEFFDCBF220A7257002BB0B4 /* RaffleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFFDCEF220A725E002BB0B4 /* Build configuration list for PBXNativeTarget "RaffleApp" */;
+			buildPhases = (
+				AEFFDCBC220A7257002BB0B4 /* Sources */,
+				AEFFDCBD220A7257002BB0B4 /* Frameworks */,
+				AEFFDCBE220A7257002BB0B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaffleApp;
+			productName = RaffleApp;
+			productReference = AEFFDCC0220A7257002BB0B4 /* RaffleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEFFDCDA220A725E002BB0B4 /* RaffleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFFDCF2220A725E002BB0B4 /* Build configuration list for PBXNativeTarget "RaffleAppTests" */;
+			buildPhases = (
+				AEFFDCD7220A725E002BB0B4 /* Sources */,
+				AEFFDCD8220A725E002BB0B4 /* Frameworks */,
+				AEFFDCD9220A725E002BB0B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEFFDCDD220A725E002BB0B4 /* PBXTargetDependency */,
+			);
+			name = RaffleAppTests;
+			productName = RaffleAppTests;
+			productReference = AEFFDCDB220A725E002BB0B4 /* RaffleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEFFDCE5220A725E002BB0B4 /* RaffleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFFDCF5220A725E002BB0B4 /* Build configuration list for PBXNativeTarget "RaffleAppUITests" */;
+			buildPhases = (
+				AEFFDCE2220A725E002BB0B4 /* Sources */,
+				AEFFDCE3220A725E002BB0B4 /* Frameworks */,
+				AEFFDCE4220A725E002BB0B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEFFDCE8220A725E002BB0B4 /* PBXTargetDependency */,
+			);
+			name = RaffleAppUITests;
+			productName = RaffleAppUITests;
+			productReference = AEFFDCE6220A725E002BB0B4 /* RaffleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEFFDCB8220A7257002BB0B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ross;
+				TargetAttributes = {
+					AEFFDCBF220A7257002BB0B4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AEFFDCDA220A725E002BB0B4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AEFFDCBF220A7257002BB0B4;
+					};
+					AEFFDCE5220A725E002BB0B4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AEFFDCBF220A7257002BB0B4;
+					};
+				};
+			};
+			buildConfigurationList = AEFFDCBB220A7257002BB0B4 /* Build configuration list for PBXProject "RaffleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEFFDCB7220A7257002BB0B4;
+			productRefGroup = AEFFDCC1220A7257002BB0B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEFFDCBF220A7257002BB0B4 /* RaffleApp */,
+				AEFFDCDA220A725E002BB0B4 /* RaffleAppTests */,
+				AEFFDCE5220A725E002BB0B4 /* RaffleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEFFDCBE220A7257002BB0B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFFDCD3220A725E002BB0B4 /* LaunchScreen.storyboard in Resources */,
+				AEBBA2D1220A7C600065E535 /* Storyboard.storyboard in Resources */,
+				AEBBA2D6220A82340065E535 /* Signature.ttf in Resources */,
+				AEFFDCD0220A725E002BB0B4 /* Assets.xcassets in Resources */,
+				AEBBA2D8220A82340065E535 /* CLASSIC.ttf in Resources */,
+				AEBBA2D7220A82340065E535 /* COMPANY.ttf in Resources */,
+				AEFFDCFA220A72C0002BB0B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFFDCD9220A725E002BB0B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFFDCE4220A725E002BB0B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEFFDCBC220A7257002BB0B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBBA2CF220A76310065E535 /* FeedVC.m in Sources */,
+				AEFFDCCE220A7257002BB0B4 /* RaffleApp.xcdatamodeld in Sources */,
+				AEBBA2C6220A753F0065E535 /* PurchasesVC.m in Sources */,
+				AEBBA2CC220A75C80065E535 /* MainVC.m in Sources */,
+				AEFFDCC8220A7257002BB0B4 /* LoginController.m in Sources */,
+				AEFFDCD6220A725E002BB0B4 /* main.m in Sources */,
+				AEBBA2C9220A759A0065E535 /* AccountVC.m in Sources */,
+				AEFFDCC5220A7257002BB0B4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFFDCD7220A725E002BB0B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFFDCE0220A725E002BB0B4 /* RaffleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFFDCE2220A725E002BB0B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFFDCEB220A725E002BB0B4 /* RaffleAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEFFDCDD220A725E002BB0B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEFFDCBF220A7257002BB0B4 /* RaffleApp */;
+			targetProxy = AEFFDCDC220A725E002BB0B4 /* PBXContainerItemProxy */;
+		};
+		AEFFDCE8220A725E002BB0B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEFFDCBF220A7257002BB0B4 /* RaffleApp */;
+			targetProxy = AEFFDCE7220A725E002BB0B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEFFDCD1220A725E002BB0B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFFDCD2220A725E002BB0B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AEFFDCF8220A72C0002BB0B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFFDCF9220A72C0002BB0B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEFFDCED220A725E002BB0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEFFDCEE220A725E002BB0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEFFDCF0220A725E002BB0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ7XPD2N33;
+				INFOPLIST_FILE = RaffleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AjeenahRoss.RaffleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEFFDCF1220A725E002BB0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ7XPD2N33;
+				INFOPLIST_FILE = RaffleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AjeenahRoss.RaffleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEFFDCF3220A725E002BB0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ7XPD2N33;
+				INFOPLIST_FILE = RaffleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AjeenahRoss.RaffleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaffleApp.app/RaffleApp";
+			};
+			name = Debug;
+		};
+		AEFFDCF4220A725E002BB0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ7XPD2N33;
+				INFOPLIST_FILE = RaffleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AjeenahRoss.RaffleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaffleApp.app/RaffleApp";
+			};
+			name = Release;
+		};
+		AEFFDCF6220A725E002BB0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ7XPD2N33;
+				INFOPLIST_FILE = RaffleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AjeenahRoss.RaffleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaffleApp;
+			};
+			name = Debug;
+		};
+		AEFFDCF7220A725E002BB0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ7XPD2N33;
+				INFOPLIST_FILE = RaffleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AjeenahRoss.RaffleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaffleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEFFDCBB220A7257002BB0B4 /* Build configuration list for PBXProject "RaffleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFFDCED220A725E002BB0B4 /* Debug */,
+				AEFFDCEE220A725E002BB0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFFDCEF220A725E002BB0B4 /* Build configuration list for PBXNativeTarget "RaffleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFFDCF0220A725E002BB0B4 /* Debug */,
+				AEFFDCF1220A725E002BB0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFFDCF2220A725E002BB0B4 /* Build configuration list for PBXNativeTarget "RaffleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFFDCF3220A725E002BB0B4 /* Debug */,
+				AEFFDCF4220A725E002BB0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFFDCF5220A725E002BB0B4 /* Build configuration list for PBXNativeTarget "RaffleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFFDCF6220A725E002BB0B4 /* Debug */,
+				AEFFDCF7220A725E002BB0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AEFFDCCC220A7257002BB0B4 /* RaffleApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AEFFDCCD220A7257002BB0B4 /* RaffleApp.xcdatamodel */,
+			);
+			currentVersion = AEFFDCCD220A7257002BB0B4 /* RaffleApp.xcdatamodel */;
+			path = RaffleApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AEFFDCB8220A7257002BB0B4 /* Project object */;
+}
